@@ -1,3 +1,7 @@
+try:
+    import telebot
+except:
+    os.system("pip install telebot")
 import os
 import telebot
 import time
