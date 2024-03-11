@@ -1,0 +1,1 @@
+CreateObject("SAPI.SpVoice").Speak"Your device has been hacked by us!"
